@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/universal-router",
+  "name": "@mageswap/universal-router",
   "description": "Smart contracts for Universal Router",
   "license": "GPL-2.0-or-later",
   "publishConfig": {
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/universal-router"
+    "url": "https://github.com/mageswap/mageswap-router"
   },
   "files": [
     "contracts/base",
@@ -31,8 +31,8 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@uniswap/v2-core": "1.0.1",
-    "@uniswap/v3-core": "1.0.0",
+    "@mageswap/v2-core": "github:mageswap/v2-core",
+    "@mageswap/v3-core": "github:mageswap/v3-core",
     "@openzeppelin/contracts": "4.7.0"
   },
   "devDependencies": {
