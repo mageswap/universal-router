@@ -1,6 +1,6 @@
 import { CommandType, RoutePlanner } from './../shared/planner'
 import { Permit2, UniversalRouter } from '../../../typechain'
-import snapshotGasCost from '@uniswap/snapshot-gas-cost'
+import snapshotGasCost from '@mageswap/snapshot-gas-cost'
 import {
   seaportOrders,
   seaportInterface,

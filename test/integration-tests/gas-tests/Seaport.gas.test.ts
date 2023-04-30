@@ -1,6 +1,6 @@
 import { CommandType, RoutePlanner } from '../shared/planner'
 import { UniversalRouter, Permit2 } from '../../../typechain'
-import snapshotGasCost from '@uniswap/snapshot-gas-cost'
+import snapshotGasCost from '@mageswap/snapshot-gas-cost'
 import { seaportOrders, seaportInterface, getAdvancedOrderParams } from '../shared/protocolHelpers/seaport'
 import { resetFork, WETH } from '../shared/mainnetForkHelpers'
 import { ALICE_ADDRESS, DEADLINE, OPENSEA_CONDUIT_KEY } from '../shared/constants'
